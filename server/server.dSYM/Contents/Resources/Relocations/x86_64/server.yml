@@ -1,0 +1,14 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     server
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001310, symSize: 0x600 }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _serverSocket, symBinAddr: 0x100003010, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x75, size: 0x8, addend: 0x0, symName: _clientSocket, symBinAddr: 0x100003000, symSize: 0x0 }
+  - { offsetInCU: 0x8A, offset: 0x8A, size: 0x8, addend: 0x0, symName: _request, symBinAddr: 0x100003008, symSize: 0x0 }
+  - { offsetInCU: 0xDA, offset: 0xDA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001310, symSize: 0x600 }
+  - { offsetInCU: 0x229, offset: 0x229, size: 0x8, addend: 0x0, symName: _handleSignal, symObjAddr: 0x600, symBinAddr: 0x100001910, symSize: 0x70 }
+  - { offsetInCU: 0x24D, offset: 0x24D, size: 0x8, addend: 0x0, symName: _getFileURL, symObjAddr: 0x670, symBinAddr: 0x100001980, symSize: 0xF0 }
+  - { offsetInCU: 0x29B, offset: 0x29B, size: 0x8, addend: 0x0, symName: _getTimeString, symObjAddr: 0x760, symBinAddr: 0x100001A70, symSize: 0x60 }
+  - { offsetInCU: 0x2DC, offset: 0x2DC, size: 0x8, addend: 0x0, symName: _getMimeType, symObjAddr: 0x7C0, symBinAddr: 0x100001AD0, symSize: 0x1C2 }
+...
